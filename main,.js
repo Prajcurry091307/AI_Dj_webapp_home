@@ -1,4 +1,4 @@
-//V 1.5
+
 song="";
 
 leftWristX = 0;
@@ -60,12 +60,12 @@ function draw()
 
     if(rightWristY>0 && rightWristY>0)
     {
-        document.getElementById("speed").innerHTML = "Song = 0.5x";
+        document.getElementById("song_button").innerHTML = "Song = Believer";
         song.play('believer.mp3');
     }
     if(leftWristY>0 && leftWristY>0)
     {
-        document.getElementById("speed").innerHTML = "Song = 0.5x";
+        document.getElementById("song_button").innerHTML = "Song = Avengers";
         song.play('avengers.mp3');
     }
 /*
