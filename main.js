@@ -13,7 +13,7 @@ scoreRightWrist =0;
 
 function preload()
 {
- loadSound("beliver.mp3");
+ loadSound("believer.mp3");
  loadSound("avengers.mp3");
 }
 
